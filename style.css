@@ -1,0 +1,213 @@
+/* common css */
+.button {
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #F85858;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_formating {
+    width: 25em;
+    margin-top: 0;
+    text-align: center;
+}
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.61) , rgba(0, 0, 0, 0.849)) , url(img/cover.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    text-align: center;
+
+}
+.header_content h1{
+    font-size: 3em;
+}
+
+/* Donate amount */
+#donation_form{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#donation_amount{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.donation_button{
+    font-weight: bold;
+    padding: 1.8em 2em;
+    background-color: rgb(245, 245, 245);
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    margin: 0 1em;
+
+}
+.special{
+    color: #F85858;
+    background-color: #fff1f1;
+    border-radius: 5px;
+    border: 1px solid #F85858;
+}
+#donation_input{
+    margin-top: 2em;
+    text-align: center;
+    width: 47em;
+    padding: 1em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7a78784a;
+}
+#donation_submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Donation Plan */
+#donation_plan{
+    width: 85%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sp_title-box{
+    margin-bottom: 2em;
+}
+.donation_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2m;
+}
+.box{
+    height: 75%;
+    width: 25%;
+    margin: 0 1em;
+    border-radius: 5px;
+    padding: 2em;
+}
+.box_one{
+    background-color: #EDF5F6;
+}
+.box_two{
+    background-color: #FEEEEE;
+}
+.box_three{
+    background-color: #FFF4D6;
+}
+/* Corporate partners */
+#corporate_partners{
+    background-color: #FEEEEE;
+    width: 82%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#corporate_partners p{
+    width: 80%;
+    text-align: justify;
+}
+.logo{
+    height: 5em;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    height: 2em;
+    width: auto;
+    margin-right: 2em;
+}
+/* corporate partners */
+/* Get my update */
+#get_my_update{
+    width: 85%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.update_email{
+    height: 10em;
+    width: 40em;
+    background-color: #FFF4D6;
+}
+.update_email form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update_email form input{
+    border: none;
+    outline: none;
+    padding: .5em .9em;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(235, 235, 235);
+}
+.update_email form #submit{
+    padding: .5em .9em;
+    color: #fff;
+    font-size: .8em;
+    text-decoration: none;
+    background-color: #F85858;
+    border-radius: 0 5px 5px 0;
+}
+/* Get my update */
+
+/* Footer */
+#footer{
+    background-color: #0b0d18;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footer h3{
+    font-style: italic;
+    color: #F85858;
+}
+#footer small{
+    color: #fff;
+}
